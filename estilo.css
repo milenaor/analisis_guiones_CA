@@ -62,7 +62,7 @@ cite.blanco {
 }
 
 body {
-  background-color: #cedacc;
+  background-color: #e2ecf1;
 }
 
 .abstract-content {
@@ -70,20 +70,20 @@ body {
   padding: 90px 90px;
 }
 
-.background-green {
-  background-color: var(--green);
+.background-blue {
+  background-color: #497b91;
   padding: 90px 90px;
 }
 
-.background-green h2 {
+.background-blue h2 {
   color: #ffffff;
 }
 
-.background-green p {
+.background-blue p {
   color: #ffffff;
 }
 
-.background-green img {
+.background-blue img {
   padding: 0 0 2rem 0;
 }
 
@@ -223,6 +223,20 @@ p.info {
   background-color: white;
   padding: 0;
   margin: 0;
+}
+.card {
+  margin: 0;
+  padding-bottom: 0;
+}
+.card-body {
+  margin: 0;
+}
+.card-tex {
+  padding: 0;
+  margin: 0;
+}
+.card p {
+  color: rgb(0, 0, 0);
 }
 
 /* Estilos Atlas */
