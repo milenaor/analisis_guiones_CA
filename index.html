@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Analisis del Laboratorio de guines</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+
+
+    <!-- fonts Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <a class="back-top" href="#top">VOLVER</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="intro" id="top">
+                    <h2>Análisis </h2>
+                    <h1><i>Laboratorio de Guiones</i></h1>
+                    <h3>Centro Ático Universidad Javeriana</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p class='info'><b>Haz clic en los siguientes botones para explorar cada sección</b></p>
+
+                <a class="btn" href="#resumen">RESUMEN</a>
+                <a class="btn" href="#introduccion">INTRODUCCIÓN</a>
+                <a class="btn" href="#etapa1">POPULARIDAD CINEMATOGRÁFICA</a>
+                <a class="btn" href="#etapa2">EXPLORANDO EL ÉXITO</a>
+                <a class="btn" href="#etapa3">REVELANDO LA ESENCIA</a>
+                <a class="btn" href="#conclusiones">CONCLUSIONES</a>
+                <a class="btn" href="#bibliografia">BIBLIOGRAFÍA</a>
+                <br /><br />
+
+                <p><i>Equipo Ambientes Virtuales<br /> Proyecto nuevas interfaces<br />08 de Septiembre de 2024</i></p>
+            </div>
+
+            <div class="col-md-6">
+                <img class="img-fluid" src="img/2_noom-peerapong-2uwFEAGUm6E-unsplash (1).jpg">
+            </div>
+        </div>
+
+        <div class="container background-white" id="resumen">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Resumen</h2>
+                    <br>
+                    <p>Este trabajo analiza la representación femenina en el cine, destacando el Test de Bechdel como
+                        una herramienta para evaluar la presencia activa de personajes femeninos. Este test, creado por
+                        Alison Bechdel, establece tres premisas que una película debe cumplir para superarlo. A través
+                        de visualizaciones de datos, se revela que películas nominadas y ganadoras en los Oscar
+                        no pasan este test, evidenciando un patrón persistente en la industria cinematográfica,
+                        especialmente en el cine estadounidense. El trabajo no pretende adoptar una perspectiva
+                        feminista, sino utilizar el test de Bechdel como una rúbrica breve pero reveladora para analizar
+                        la representación de las mujeres en el cine.</p>
+                    <p>Palabras clave: Representación femenina, Test de Bechdel, Industria cinematográfica,
+                        Visualizaciones de datos, Cine estadounidense. </p>
+                    <blockquote class="resumen"><i>“Mi madre es, mi padre sin duda era”.</i>
+                        <br />-Alison Bechdel.
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="container background-green" id="introduccion">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Participación en la convocatoría</h2>
+                    <br>
+                    <p> Alison Bechdel, una historietista estadounidense, llegó a este test a través de su trabajo como
+                        artista y múltiples conversaciones con su amiga Liz Wallace. Al notar la poca representación
+                        femenina dentro de los productos audiovisuales —en este caso el cine—, y los roles establecidos
+                        a los personajes otorgados, Bechdel delimitó tres reglas básicas para evaluar las películas y
+                        determinar qué tanto había allí de sesgo, qué tanto era intencional y cuáles eran los patrones
+                        de representación obtenidos.
+                    </p>
+                    <p> Para muestra de ello existen hondos y amplios estudios. Un dato curioso es el siguiente: según
+                        los datos recopilados por elDiario.es (26 de febrero de 2016), a esa fecha “De las 108 nominadas
+                        a Mejor Película en los Oscar durante el siglo XXI (2000-2016), el 45% no pasan este sencillo
+                        test. La regla se extiende también a las ganadoras, 7 de las últimas 16 vencedoras del galardón
+                        a la cinta del año no superan el examen” (párr. 2). De esta forma, se hace visible un patrón que
+                        se ha repetido constantemente en la historia del cine, tomando gran relevancia el cine
+                        norteamericano.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p> Alison Bechdel, una historietista estadounidense, llegó a este test a través de su trabajo como
+                        artista y múltiples conversaciones con su amiga Liz Wallace. Al notar la poca representación
+                        femenina dentro de los productos audiovisuales —en este caso el cine—, y los roles establecidos
+                        a los personajes otorgados, Bechdel delimitó tres reglas básicas para evaluar las películas y
+                        determinar qué tanto había allí de sesgo, qué tanto era intencional y cuáles eran los patrones
+                        de representación obtenidos.
+                    </p>
+                    <p> Para muestra de ello existen hondos y amplios estudios. Un dato curioso es el siguiente: según
+                        los datos recopilados por elDiario.es (26 de febrero de 2016), a esa fecha “De las 108 nominadas
+                        a Mejor Película en los Oscar durante el siglo XXI (2000-2016), el 45% no pasan este sencillo
+                        test. La regla se extiende también a las ganadoras, 7 de las últimas 16 vencedoras del galardón
+                        a la cinta del año no superan el examen” (párr. 2). De esta forma, se hace visible un patrón que
+                        se ha repetido constantemente en la historia del cine, tomando gran relevancia el cine
+                        norteamericano.
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <!-- Participación de universidades en la convocatoría -->
+                    <iframe src='https://flo.uri.sh/visualisation/19333642/embed' title='Interactive or visual content'
+                        class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:1000px;'
+                        sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'>
+                    </iframe>
+                    <cite>Participación de universidades en la convocatoría</cite>
+                    <div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a
+                            class='flourish-credit'
+                            href='https://public.flourish.studio/visualisation/16011779/?utm_source=embed&utm_campaign=visualisation/16011779'
+                            target='_top' style='text-decoration:none!important'><img alt='Made with Flourish'
+                                src='https://public.flourish.studio/resources/made_with_flourish.svg'
+                                style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container background-white" id="etapa1">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Carreras de los inscritos</h2>
+                    <br>
+                    <P>Dentro de todas las categorías de análisis que pueden surgir de un estudio de la representación
+                        femenina en el corpus de películas utilizado en este estudio, se tiene como eje conceptual el
+                        llamado Test de Bechdel. Esta herramienta, poco conocida y de uso reciente, permite medir la
+                        participación activa de personajes femeninos dentro de representaciones
+                        audiovisuales, en este caso en el cine.</P>
+                    <P class="indentado"> El test de Bechdel analiza la relevancia de los personajes femeninos en la
+                        historia para determinar si una representación artística cumple con una serie de estándares
+                        mínimos que evitarían la brecha de género. Para obtener un resultado positivo en el test debe
+                        superar tres premisas: tener más de un personaje femenino, que hablen entre sí y que lo que
+                        hablen no sea de un hombre. Se originó en 1985 en el cómic "Unas lesbianas de cuidado" de la
+                        autora Alison Bechdel. (Ferrete, 2020, p. 10).</P>
+                    <p>Según la tercera premisa del Test de Bechdel, que engloba la recopilación de las dos primeras
+                        premisas, se indica que la representa-
+
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <!-- Carreras de los inscritos -->
+                    <iframe src='https://flo.uri.sh/visualisation/19335732/embed' title='Interactive or visual content'
+                        class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;'
+                        sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'>
+                    </iframe>
+                    <cite>Carreras de los inscritos</cite>
+                    <div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a
+                            class='flourish-credit'
+                            href='https://public.flourish.studio/visualisation/19335732/?utm_source=embed&utm_campaign=visualisation/19335732'
+                            target='_top' style='text-decoration:none!important'><img alt='Made with Flourish'
+                                src='https://public.flourish.studio/resources/made_with_flourish.svg'
+                                style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container background-green" id="etapa2">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Semestres de los participantes</h2>
+                <br>
+                <p>Siguiendo con la lógica de nuestro hilo argumentativo, partiendo de lo macro a lo micro, pasamos del
+                    análisis general de los distintos géneros, y su popularidad en relación con la aprobación de los
+                    criterios del test de Bechdel, al análisis de las películas que representaron el índice más alto de
+                    popularidad según nuestra base de datos. Es importante señalar que estas películas surgen dentro de
+                    tres momentos históricos que identificamos como los de mayor auge de películas referentes a la
+                    aprobación de los tres criterios del test de Bechdel. Estos momentos son los siguientes: la década
+                    de 1950, 2000 y 2010.
+                </p>
+                <p>A partir de este descubrimiento, visualizamos las características de cada una de estas películas a
+                    través del desarrollo de un atlas. Dentro del mismo, señalamos tres escenas donde se cumplen los
+                    criterios de Bechdel y la forma en la que se desarrollan en cada una de las décadas. Para empezar,
+                    tomaremos la década de 1950 —con el género de Animación y Familia—, que tiene un repunte claro en la
+                    popularidad de sus películas y la aprobación de los criterios del test. Tal como se ha evidenciado
+                    contraria a Cenicienta, donde el porcentaje nes.
+                </p>
+
+            </div>
+            <div class="col-md-6">
+                <!-- Semestres cursados al instribirse  -->
+
+                <iframe src='https://flo.uri.sh/visualisation/19335018/embed' title='Interactive or visual content'
+                    class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;'
+                    sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'>
+                </iframe>
+                <cite>Semestres de los participantes</cite>
+                <div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit'
+                        href='https://public.flourish.studio/visualisation/19335018/?utm_source=embed&utm_campaign=visualisation/19335018'
+                        target='_top' style='text-decoration:none!important'><img alt='Made with Flourish'
+                            src='https://public.flourish.studio/resources/made_with_flourish.svg'
+                            style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container background-white" id="etapa3">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>¿Cuáles son los géneros cinematográficos de mayor interés</h2>
+                <br>
+                <p>
+                    Tal como menciona Villa Hidalgo (2019), entendemos que el desarrollo del personaje es mucho más
+                    complejo de lo que podemos analizar a través del test de Bechdel, y que la superación de los
+                    criterios no evita que se lleve a cabo el uso de estereotipos al momento de darle vida a la
+                    protagonista. Complementando lo anterior, podemos mencionar lo siguiente:
+                </p>
+                <p>
+                    No obstante, a pesar de las dificultades del análisis, es pertinente su raciocinio, porque da
+                    cuenta de las redes que se tejen dentro de las narraciones y cómo, dentro de las mismas —y a
+                    pesar de que creemos superada una brecha de género—, supervive el machismo y los roles asignados
+                    generalmente a las mujeres.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    Tal como menciona Villa Hidalgo (2019), entendemos que el desarrollo del personaje es mucho más
+                    complejo de lo que podemos analizar a través del test de Bechdel, y que la superación de los
+                    criterios no evita que se lleve a cabo el uso de estereotipos al momento de darle vida a la
+                    protagonista. Complementando lo anterior, podemos mencionar lo siguiente:
+                </p>
+                <p>
+                    No obstante, a pesar de las dificultades del análisis, es pertinente su raciocinio, porque da
+                    cuenta de las redes que se tejen dentro de las narraciones y cómo, dentro de las mismas —y a
+                    pesar de que creemos superada una brecha de género—, supervive el machismo y los roles asignados
+                    generalmente a las mujeres.
+                </p>
+            </div>
+            <div class="col-md-12">
+                <iframe src='https://flo.uri.sh/visualisation/19335121/embed' title='Interactive or visual content'
+                    class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;'
+                    sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+                <div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit'
+                        href='https://public.flourish.studio/visualisation/19335121/?utm_source=embed&utm_campaign=visualisation/19335121'
+                        target='_top' style='text-decoration:none!important'><img alt='Made with Flourish'
+                            src='https://public.flourish.studio/resources/made_with_flourish.svg'
+                            style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container background-green" id="conclusiones">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Temáticas de mayor interés</h2>
+                <br>
+                <p>
+                    A partir del recorrido que iniciamos desde el Resumen de este documento, pudimos trazar una ruta de
+                    análisis que nos permitiera acercarnos a la participación de las mujeres, dentro del rubro
+                    cinematográfico, a partir de una muestra de 7635 filmes analizados. Todos los datos fueron tomados
+                    del sitio web Kaggel, mismo que se alimenta de la base de datos de The Movie Data Base (TMDB). Esta
+                    muestra nos permitió acercarnos a un corpus cronológico de películas —que atraviesa más de diez
+                    décadas—, para comprobar la incidencia del test de Bechdel en las mismas y poder, desde allí,
+                    diseccionar la información.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    A partir del recorrido que iniciamos desde el Resumen de este documento, pudimos trazar una ruta de
+                    análisis que nos permitiera acercarnos a la participación de las mujeres, dentro del rubro
+                    cinematográfico, a partir de una muestra de 7635 filmes analizados. Todos los datos fueron tomados
+                    del sitio web Kaggel, mismo que se alimenta de la base de datos de The Movie Data Base (TMDB). Esta
+                    muestra nos permitió acercarnos a un corpus cronológico de películas —que atraviesa más de diez
+                    décadas—, para comprobar la incidencia del test de Bechdel en las mismas y poder, desde allí,
+                    diseccionar la información.
+                </p>
+            </div>
+            <div class="col-md-12">
+                <!-- Universidad nacional de colombia -->
+                <h3 style="color:rgb(255, 255, 255);"> Universidad Nacional de Colombia </h3>
+                <br>
+                <iframe style='width:100%;height:500px;'
+                    src='https://voyant-tools.org/tool/Cirrus/?visible=175&corpus=9db7c48096583c7c5353f7f949475064'>
+                </iframe>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    A partir del recorrido que iniciamos desde el Resumen de este documento, pudimos trazar una ruta de
+                    análisis que nos permitiera acercarnos a la participación de las mujeres, dentro del rubro
+                    cinematográfico, a partir de una muestra de 7635 filmes analizados.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    A partir del recorrido que iniciamos desde el Resumen de este documento, pudimos trazar una ruta de
+                    análisis que nos permitiera acercarnos a la participación de las mujeres, dentro del rubro
+                    cinematográfico, a partir de una muestra de 7635 filmes analizados.
+                </p>
+            </div>
+            <div class="col-md-12">
+                <!-- Universidad de Medellín -->
+                <h3 style="color:rgb(255, 255, 255);"> Universidad de Medellín </h3>
+                <br>
+                <iframe style='width:100%;height:500px;'
+                    src='https://voyant-tools.org/tool/Cirrus/?visible=200&corpus=01f20709a9c377b64b0b2cc3208a157f'>
+
+                </iframe>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    A partir del recorrido que iniciamos desde el Resumen de este documento, pudimos trazar una ruta de
+                    análisis que nos permitiera acercarnos a la participación de las mujeres, dentro del rubro
+                    cinematográfico, a partir de una muestra de 7635 filmes analizados.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    A partir del recorrido que iniciamos desde el Resumen de este documento, pudimos trazar una ruta de
+                    análisis que nos permitiera acercarnos a la participación de las mujeres, dentro del rubro
+                    cinematográfico, a partir de una muestra de 7635 filmes analizados.
+                </p>
+            </div>
+            <div class="col-md-12">
+                <!-- ITM Instituto Tecnológico Metropolitano -->
+                <h3 style="color:rgb(255, 255, 255);"> ITM Instituto Tecnológico Metropolitano </h3>
+                <iframe style='width:100%;height:500px;'
+                    src='https://voyant-tools.org/tool/Cirrus/?visible=200&corpus=636c70ca2f4ae0ca7deba442000a583f'>
+                </iframe>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    A partir del recorrido que iniciamos desde el Resumen de este documento, pudimos trazar una ruta de
+                    análisis que nos permitiera acercarnos a la participación de las mujeres, dentro del rubro
+                    cinematográfico, a partir de una muestra de 7635 filmes analizados.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    A partir del recorrido que iniciamos desde el Resumen de este documento, pudimos trazar una ruta de
+                    análisis que nos permitiera acercarnos a la participación de las mujeres, dentro del rubro
+                    cinematográfico, a partir de una muestra de 7635 filmes analizados.
+                </p>
+            </div>
+            <div class="col-md-12">
+                <!-- Universidad del magdalena -->
+                <h3 style="color:rgb(255, 255, 255);"> Universidad del magdalena </h3>
+                <iframe style='width:100%;height:500px;'
+                    src='https://voyant-tools.org/tool/Cirrus/?visible=200&corpus=a9d4f9874c068abc3ee4e8aa8b32e139'>
+                </iframe>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    A partir del recorrido que iniciamos desde el Resumen de este documento, pudimos trazar una ruta de
+                    análisis que nos permitiera acercarnos a la participación de las mujeres, dentro del rubro
+                    cinematográfico, a partir de una muestra de 7635 filmes analizados.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    A partir del recorrido que iniciamos desde el Resumen de este documento, pudimos trazar una ruta de
+                    análisis que nos permitiera acercarnos a la participación de las mujeres, dentro del rubro
+                    cinematográfico, a partir de una muestra de 7635 filmes analizados.
+                </p>
+            </div>
+            <div class="col-md-12">
+                <!-- Universidad de Antioquia -->
+                <h3 style="color:rgb(255, 255, 255);"> Universidad de Antioquia </h3>
+                <iframe style='width:100%;height:500px;'
+                    src='https://voyant-tools.org/tool/Cirrus/?visible=200&corpus=8d0d06222f5d53429ec5375f899c9c09'>
+                </iframe>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    A partir del recorrido que iniciamos desde el Resumen de este documento, pudimos trazar una ruta de
+                    análisis que nos permitiera acercarnos a la participación de las mujeres, dentro del rubro
+                    cinematográfico, a partir de una muestra de 7635 filmes analizados.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    A partir del recorrido que iniciamos desde el Resumen de este documento, pudimos trazar una ruta de
+                    análisis que nos permitiera acercarnos a la participación de las mujeres, dentro del rubro
+                    cinematográfico, a partir de una muestra de 7635 filmes analizados.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container background-white" id="bibliografia">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Algunas imágenes generadas con AI</h2>
+                <br>
+            </div>
+            <div class="col-md-6">
+                <img src="img/1_personaje.jpeg" class="img-fluid" alt="...">
+
+            </div>
+            <div class="col-md-6">
+                <h3>
+                    Cuando retornen las garzas
+                </h3>
+                <p>
+                    Nombre del personaje: <b> Juan </b>
+                </p>
+                <p>
+                    <b>Género: </b> Drama, Suspenso<br>
+                    <b>Temática: </b> Búsqueda de la identidad y redención personal. <br>
+                    <b>Temas: </b> Memoria, culpa, violencia, redención, naturaleza. <br>
+                    <b> Ubicación geográfica: </b> Colombia, Putumayo. <br>
+                    <b>Escenarios:</b> Selva exuberante, cerca de una gran ceiba.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container background-green" id="introduccion">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Ubicación geográfica</h2>
+                <br>
+                <p> Alison Bechdel, una historietista estadounidense, llegó a este test a través de su trabajo como
+                    artista y múltiples conversaciones con su amiga Liz Wallace. Al notar la poca representación
+                    femenina dentro de los productos audiovisuales —en este caso el cine—, y los roles establecidos
+                    a los personajes otorgados, Bechdel delimitó tres reglas básicas para evaluar las películas y
+                    determinar qué tanto había allí de sesgo, qué tanto era intencional y cuáles eran los patrones
+                    de representación obtenidos.
+                </p>
+                <p> Para muestra de ello existen hondos y amplios estudios. Un dato curioso es el siguiente: según
+                    los datos recopilados por elDiario.es (26 de febrero de 2016), a esa fecha “De las 108 nominadas
+                    a Mejor Película en los Oscar durante el siglo XXI (2000-2016), el 45% no pasan este sencillo
+                    test. La regla se extiende también a las ganadoras, 7 de las últimas 16 vencedoras del galardón
+                    a la cinta del año no superan el examen” (párr. 2). De esta forma, se hace visible un patrón que
+                    se ha repetido constantemente en la historia del cine, tomando gran relevancia el cine
+                    norteamericano.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p> Alison Bechdel, una historietista estadounidense, llegó a este test a través de su trabajo como
+                    artista y múltiples conversaciones con su amiga Liz Wallace. Al notar la poca representación
+                    femenina dentro de los productos audiovisuales —en este caso el cine—, y los roles establecidos
+                    a los personajes otorgados, Bechdel delimitó tres reglas básicas para evaluar las películas y
+                    determinar qué tanto había allí de sesgo, qué tanto era intencional y cuáles eran los patrones
+                    de representación obtenidos.
+                </p>
+                <p> Para muestra de ello existen hondos y amplios estudios. Un dato curioso es el siguiente: según
+                    los datos recopilados por elDiario.es (26 de febrero de 2016), a esa fecha “De las 108 nominadas
+                    a Mejor Película en los Oscar durante el siglo XXI (2000-2016), el 45% no pasan este sencillo
+                    test. La regla se extiende también a las ganadoras, 7 de las últimas 16 vencedoras del galardón
+                    a la cinta del año no superan el examen” (párr. 2). De esta forma, se hace visible un patrón que
+                    se ha repetido constantemente en la historia del cine, tomando gran relevancia el cine
+                    norteamericano.
+                </p>
+            </div>
+            <div class="col-md-12">
+                <!-- Participación de universidades en la convocatoría -->
+                <iframe src='https://flo.uri.sh/visualisation/19333642/embed' title='Interactive or visual content'
+                    class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:1000px;'
+                    sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'>
+                </iframe>
+                <cite>Participación de universidades en la convocatoría</cite>
+                <div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit'
+                        href='https://public.flourish.studio/visualisation/16011779/?utm_source=embed&utm_campaign=visualisation/16011779'
+                        target='_top' style='text-decoration:none!important'><img alt='Made with Flourish'
+                            src='https://public.flourish.studio/resources/made_with_flourish.svg'
+                            style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+
+</html>
